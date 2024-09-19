@@ -10,6 +10,8 @@
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 10px;
 }
+
+
 .todo-app{
     width: 100%;
     max-width:540px;
@@ -31,7 +33,7 @@
 }
 .row{
     display: flex;
-    align-items: center;
+    align-items:normal;
     justify-content: space-between;
     background: #edeef0;
     border-radius: 30px;
@@ -97,4 +99,50 @@ ul li span{
 }
 ul li span:hover{
     background: #edeef0;
+}
+
+.login-app {
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.login-app h2 {
+    color: #060357;
+    margin-bottom: 20px;
+}
+
+/* Ensure the row wraps vertically */
+.login-app .row {
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center;
+    justify-content: center;
+}
+
+.login-app input {
+    width: 100%; /* Make inputs take the full width of the container */
+    padding: 10px;
+    margin-bottom: 15px; /* Add some space between the inputs */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.login-app button {
+    width: 90%; /* Button will also take the full width */
+    padding: 12px;
+    background: #ff5945;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.login-app button:hover {
+    background: #ff4231;
 }
