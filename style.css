@@ -7,7 +7,7 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    background: linear-gradient(135deg, #317256, #398564, #419873, #49ab81);
     padding: 10px;
 }
 
@@ -21,7 +21,7 @@
     border-radius: 10px;
 }
 .todo-app h2{
-    color: #060357;
+    color: #4d7f17;
     display:flex;
     align-items: center;
     margin-bottom: 20px;
@@ -37,8 +37,9 @@
     justify-content: space-between;
     background: #edeef0;
     border-radius: 30px;
-    padding-left: 20px;
+    padding: 20px;
     margin-bottom: 25px;
+    width: 500px;
 }
 input{
     flex: 1;
@@ -47,12 +48,13 @@ input{
     background: transparent;
     padding: 10px;
     font-weight: 14px;
+    color:rgb(35, 116, 8);
 }
 button{
     border: none;
     outline: none;
     padding: 16px 15px;
-    background: #ff5945;
+    background: #4d7f17;
     color: #fff;
     font-size: 16px;
     cursor: poiner;
@@ -112,7 +114,7 @@ ul li span:hover{
 }
 
 .login-app h2 {
-    color: #060357;
+    color: #4d7f17;
     margin-bottom: 20px;
 }
 
@@ -135,7 +137,7 @@ ul li span:hover{
 .login-app button {
     width: 90%; /* Button will also take the full width */
     padding: 12px;
-    background: #ff5945;
+    background: #4d7f17;
     color: white;
     border: none;
     cursor: pointer;
@@ -144,5 +146,6 @@ ul li span:hover{
 }
 
 .login-app button:hover {
-    background: #ff4231;
+    background: #6bb120;
 }
+
