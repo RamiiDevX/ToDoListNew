@@ -7,15 +7,14 @@
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #317256, #398564, #419873, #49ab81);
+    background-image: url(images/4049649.jpg);
     padding: 10px;
 }
-
 
 .todo-app{
     width: 100%;
     max-width:540px;
-    background: #10a49d;
+    background: #fff;
     margin:100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
@@ -35,7 +34,7 @@
     display: flex;
     align-items:normal;
     justify-content: space-between;
-    background: #edeef0;
+    background: #fafafa;
     border-radius: 30px;
     padding: 20px;
     margin-bottom: 25px;
@@ -47,8 +46,8 @@ input{
     outline: none;
     background: transparent;
     padding: 10px;
-    font-weight: 14px;
-    color:rgb(35, 116, 8);
+    font-weight: 20px;
+    color:rgb(0, 0, 0);
 }
 button{
     border: none;
@@ -129,13 +128,13 @@ ul li span:hover{
 .login-app input {
     width: 100%; /* Make inputs take the full width of the container */
     padding: 10px;
-    margin-bottom: 15px; /* Add some space between the inputs */
+    margin-bottom: 15px; /*Add some space between the inputs */
     border-radius: 5px;
     border: 1px solid #ccc;
 }
 
 .login-app button {
-    width: 90%; /* Button will also take the full width */
+    width: 90%; Button will also take the full width 
     padding: 12px;
     background: #4d7f17;
     color: white;
@@ -143,6 +142,34 @@ ul li span:hover{
     cursor: pointer;
     border-radius: 20px;
     font-size: 16px;
+
+    /* From Uiverse.io by Yaya12085 */ 
+    /*max-width: 320px;
+    display: flex;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    gap: 0.75rem;
+    color: rgb(65, 63, 63);
+    background-color: #fff;
+    cursor: pointer;
+    transition: all .6s ease;*/
+  }
+  
+  .button svg {
+    height: 24px;
+  }
+  
+  button:hover {
+    transform: scale(1.02);
+  }
 }
 
 .login-app button:hover {
